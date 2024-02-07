@@ -83,7 +83,7 @@ const Course = ({
           isStaff={isStaff}
           unitId={unitId}
         />
-        { shouldDisplayChat && (
+        {shouldDisplayChat && (
           <>
             <Chat
               enabled={course.learningAssistantEnabled}
